@@ -288,7 +288,7 @@
 <script>
 // ── REPLACE THIS with your Cloudflare Worker URL after setup ──
 // If you haven't set it up yet, leave it empty and the app will ask for your Gemini key once
-const WORKER_URL = '';
+const WORKER_URL = 'https://getback-backend.onrender.com/analyse';
 
 // ── STATE ──
 let entries = JSON.parse(localStorage.getItem('kh_entries_' + todayKey()) || '[]');
